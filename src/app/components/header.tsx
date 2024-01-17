@@ -3,12 +3,12 @@ import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button, Image} fro
 
 export default function Header() {
   return (
-    <Navbar>
+    <Navbar isBordered maxWidth="full" className="px-4 navbar">
       <NavbarBrand className="flex gap-3">
-        <Image src="/logo.svg" width={28} radius="none"/>
+        <Image src="/logo.svg" width={28} radius="none" alt="cyberPotions logo"/>
         <p className="font-medium text-inherit text-xl">cyber<span className="">Potions</span></p>
       </NavbarBrand>
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden sm:flex gap-6" justify="center">
         <NavbarItem>
           <Link color="foreground" href="#">
             Services
@@ -21,17 +21,19 @@ export default function Header() {
         </NavbarItem>
         <NavbarItem>
           <Link color="foreground" href="#">
-            Integrations
+            Resources
+          </Link>
+        </NavbarItem>
+        <NavbarItem>
+          <Link color="foreground" href="#">
+            cyberUniversity
           </Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="hidden lg:flex">
-          <Link href="#">Login</Link>
-        </NavbarItem>
         <NavbarItem>
-          <Button as={Link} color="primary" href="#" variant="flat">
-            Sign Up
+          <Button as={Link} color="primary" href="#" variant="shadow" className="text-base" radius="full">
+            Hire Us
           </Button>
         </NavbarItem>
       </NavbarContent>
