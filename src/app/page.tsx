@@ -1,7 +1,6 @@
-import Image from 'next/image'
-import Hero from './hero'
+import Hero from './components/hero'
 
-import AuthForm from './auth-form'
+import AuthForm from './components/auth-form'
 
 
 export default function Home() {

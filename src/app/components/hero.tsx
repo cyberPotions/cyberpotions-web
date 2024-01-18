@@ -1,7 +1,7 @@
 "use client"
 
-import Section from "./components/section";
-import { Container } from "./components/container";
+import Section from "./section";
+import { Container } from "./container";
 import { Image } from "@nextui-org/react";
 import { Button } from "@nextui-org/react";
 

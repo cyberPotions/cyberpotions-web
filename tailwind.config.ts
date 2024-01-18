@@ -48,7 +48,7 @@ const config: Config = {
               700: "#047857",
               800: "#065f46",
               900: "#064e3b",
-              foreground: "##fafaf9",
+              foreground: "#fafaf9",
               DEFAULT: "#10B981",
             },
           },
