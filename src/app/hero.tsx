@@ -33,10 +33,10 @@ export default function Hero() {
             className="flex flex-col items-center gap-6 text-center"
           >
             <h1 className="font-bold text-6xl">
-              Focus on your business.<br/>We'll handle the website.
+              Focus on your business.<br/>We&apos;ll handle the website.
             </h1>
             <p className="text-lg">
-              We build and maintain useful, usable, and whimsical websites so business-owners can focus more on what they're good at.
+              We build and maintain useful, usable, and whimsical websites so business-owners can focus more on what they&apos;re good at.
             </p>
           </div>
           <div
