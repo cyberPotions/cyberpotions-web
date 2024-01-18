@@ -27,7 +27,7 @@ export default function Hero() {
       <Container>
         <div
           id="home-hero-layout"
-          className="flex flex-col py-10 md:py-16 gap-10 items-center"
+          className="flex flex-col py-10 md:py-16 gap-10 items-center justify-center"
         >
           <div
             className="flex flex-col items-center gap-6 text-center"
@@ -35,8 +35,8 @@ export default function Hero() {
             <h1 className="font-bold text-6xl">
               Focus on your business.<br/>We&apos;ll handle the website.
             </h1>
-            <p className="text-lg">
-              We build and maintain useful, usable, and whimsical websites so business-owners can focus more on what they&apos;re good at.
+            <p className="text-lg max-w-lg">
+              We build and maintain useful, usable, and whimsical websites so business owners can focus more on what they&apos;re good at.
             </p>
           </div>
           <div

@@ -28,7 +28,7 @@ export default function RootLayout({
   sizes="32"
 />
       </head>
-        <body className={`${figtree.className} dark text-foreground bg-background`}>
+        <body className={`${figtree.className} dark text-foreground bg-background min-h-screen`}>
         <Providers>
           <Header />
           {children}

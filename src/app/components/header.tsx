@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <Navbar isBordered maxWidth="full" className="px-4 navbar">
       <NavbarBrand className="flex gap-3">
-        <Image src="/logo.svg" width={28} radius="none" alt="cyberPotions logo"/>
+        <Image src="/icon.svg" width={28} radius="none" alt="cyberPotions logo"/>
         <p className="font-medium text-inherit text-xl">cyber<span className="">Potions</span></p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-6" justify="center">
@@ -33,7 +33,7 @@ export default function Header() {
       <NavbarContent justify="end">
         <NavbarItem>
           <Button as={Link} color="primary" href="#" variant="shadow" className="text-base" radius="full">
-            Hire Us
+            Log In
           </Button>
         </NavbarItem>
       </NavbarContent>
